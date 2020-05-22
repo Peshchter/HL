@@ -1,0 +1,22 @@
+● mariadb.service - MariaDB 10.3.22 database server
+     Loaded: loaded (/lib/systemd/system/mariadb.service; enabled; vendor preset: enabled)
+     Active: active (running) since Fri 2020-05-22 09:49:39 UTC; 2min 10s ago
+       Docs: man:mysqld(8)
+             https://mariadb.com/kb/en/library/systemd/
+   Main PID: 2842 (mysqld)
+     Status: "Taking your SQL requests now..."
+      Tasks: 31 (limit: 2283)
+     Memory: 65.8M
+     CGroup: /system.slice/mariadb.service
+             └─2842 /usr/sbin/mysqld
+
+мая 22 09:49:39 webtest /etc/mysql/debian-start[2880]: mysql
+мая 22 09:49:39 webtest /etc/mysql/debian-start[2880]: performance_schema
+мая 22 09:49:39 webtest /etc/mysql/debian-start[2880]: Phase 6/7: Checking and upgrading tables
+мая 22 09:49:39 webtest /etc/mysql/debian-start[2880]: Processing databases
+мая 22 09:49:39 webtest /etc/mysql/debian-start[2880]: information_schema
+мая 22 09:49:39 webtest /etc/mysql/debian-start[2880]: performance_schema
+мая 22 09:49:39 webtest /etc/mysql/debian-start[2880]: Phase 7/7: Running 'FLUSH PRIVILEGES'
+мая 22 09:49:39 webtest /etc/mysql/debian-start[2880]: OK
+мая 22 09:49:39 webtest /etc/mysql/debian-start[2943]: Checking for insecure root accounts.
+мая 22 09:49:39 webtest /etc/mysql/debian-start[2947]: Triggering myisam-recover for all MyISAM tables and aria-recover for all Aria tables
