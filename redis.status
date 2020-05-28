@@ -1,0 +1,14 @@
+● redis-server.service - Advanced key-value store
+     Loaded: loaded (/lib/systemd/system/redis-server.service; enabled; vendor preset: enabled)
+     Active: active (running) since Thu 2020-05-28 15:43:43 UTC; 1h 36min ago
+       Docs: http://redis.io/documentation,
+             man:redis-server(1)
+   Main PID: 34352 (redis-server)
+      Tasks: 4 (limit: 2283)
+     Memory: 3.2M
+     CGroup: /system.slice/redis-server.service
+             └─34352 /usr/bin/redis-server 127.0.0.1:6379
+
+мая 28 15:43:43 webtest systemd[1]: Starting Advanced key-value store...
+мая 28 15:43:43 webtest systemd[1]: redis-server.service: Can't open PID file /run/redis/redis-server.pid (yet?) after start: Operation not permitted
+мая 28 15:43:43 webtest systemd[1]: Started Advanced key-value store.
